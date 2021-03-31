@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: TestAzure
+  description: TestAzure
+  tags:
+    - azure
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-a
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/master/APIs/spotify.com/v1/swagger.yaml
