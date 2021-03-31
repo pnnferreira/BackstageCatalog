@@ -5,4 +5,4 @@ metadata:
   description: A collection of all Backstage azure APIs
 spec:
   targets:
-    - ./api/azureapi.yaml
+    - ./api/azureapi1.yaml
